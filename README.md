@@ -1,1 +1,1 @@
-# nykstukai-websit
+# nykstukai-website
