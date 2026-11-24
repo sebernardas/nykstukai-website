@@ -1,0 +1,88 @@
+.footer {
+  background-color: #002529;
+  color: #ffffff;
+  padding: 48px 0;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer-logo {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-link:hover {
+  color: #f67e7e;
+}
+.footer-address {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+  line-height: 25px;
+  margin-right: auto;
+  margin-left: 125px;
+}
+
+.footer-address p {
+  margin: 0;
+}
+.footer-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 16px;
+}
+
+.social-link {
+  color: #ffffff;
+  display: inline-flex;
+}
+
+.social-link:hover {
+  color: #f67e7e;
+}
+
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
