@@ -1,1 +1,39 @@
-/* Main stylesheet */
+.cta-banner {
+  background-color: #f67e7e;
+  padding: 76px 24px;
+}
+
+.cta-banner__container {
+  max-width: 917px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.cta-banner__title {
+  margin: 0;
+  color: #012f34;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.cta-banner__btn {
+  display: inline-block;
+  padding: 9px 32px 11px;
+  border: 2px solid #012f34;
+  border-radius: 24px;
+  color: #012f34;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.cta-banner__btn:hover {
+  background-color: #012f34;
+  color: #ffffff;
+}
