@@ -1,3 +1,77 @@
+:root{
+  --color-white:#FFFFFF;
+--color-repture-blue:#79C8C7;
+--color-police-blue:#2C6269;
+--color-light-coral:#F67E7E;
+--color-sacramento-state-green:#012F34;
+--color-light-breeze:#C4FFFE;
+--color-dark-green:#002529;
+--color-deep-jungle-green:#004047;
+--color-midnight-green:#014E56;
+
+--font-primary:'Livic', sans-serif;
+--container-width:1110px;
+}
+
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+ul,ol,li{list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+button,input,textarea{
+  font:inherit;
+  color:inherit;
+  background: none;
+  border: none;
+}
+button{
+  cursor: pointer;
+}
+
+
+body{
+  font-family: var(--font-primary);
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--color-white);
+  background-color:var(--color-midnight-green);
+ margin: 0 auto;
+ max-width: 1440px;
+}
+
+h1,h2,h3,h4{
+  font-weight: 700;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  
+ max-width: calc(var(--container-width)+48px);
+ margin: 0 auto;
+ padding: 0 24px;;
+}
+
 .footer {
   background-color: #002529;
   color: #ffffff;
